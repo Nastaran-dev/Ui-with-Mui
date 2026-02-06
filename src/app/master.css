@@ -1,0 +1,46 @@
+@keyframes para {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}
+
+.anime {
+    animation: para 10s infinite linear;
+}
+#tooc {
+  background-color: #765fbc;
+}
+.tooc {
+  padding-block: 20px;
+  overflow-x: hidden;
+  display: flex;
+  gap:40px;
+  align-items: center;
+}
+.list {
+  display: flex;
+  gap: 40px;
+  padding-left: 3.5rem;
+  width:max-content;
+  animation: spin 10s infinite linear;
+  >img{
+      display: block;
+      flex-shrink:0;
+      width:150px;
+      height:auto;
+  }
+}
+.list {
+  animation: spin 20s infinite linear;
+}
+@keyframes spin {
+  from {
+    transform:translateX(0) ;
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

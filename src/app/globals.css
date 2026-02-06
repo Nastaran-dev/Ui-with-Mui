@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'nacy';
+  src: url('/fonts/Syne-VariableFont_wght.ttf') format('truetype');
+}
